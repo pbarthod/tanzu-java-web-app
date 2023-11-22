@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    app.kubernetes.io/part-of: tanzu-java-web-app
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=inclusion-node-portal'
 spec:
   type: service
   lifecycle: experimental
